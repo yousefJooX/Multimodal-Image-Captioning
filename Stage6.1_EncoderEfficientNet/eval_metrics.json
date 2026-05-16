@@ -1,0 +1,22 @@
+{
+  "model": "EfficientNet-B0 (features[-2:] fine-tuned) + GRU",
+  "best_val_loss": 3.472537474198775,
+  "test_samples": 1374,
+  "BLEU-1": 0.3711363163067585,
+  "BLEU-4": 0.17609251881082802,
+  "METEOR": 0.37435319356053226,
+  "ROUGE-L": 0.3793293148966556,
+  "CIDEr": 0.9854218362359171,
+  "Room_Acc_%": 87.19068413391557,
+  "hyperparams": {
+    "EMBED_DIM": 256,
+    "HIDDEN_DIM": 512,
+    "BATCH_SIZE": 64,
+    "LR": 5e-05,
+    "NUM_EPOCHS": 50,
+    "DROPOUT": 0.3,
+    "LABEL_SMOOTH": 0.1,
+    "GRAD_CLIP": 1.0,
+    "FINE_TUNE": true
+  }
+}

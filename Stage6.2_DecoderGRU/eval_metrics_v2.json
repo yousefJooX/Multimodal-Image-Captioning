@@ -1,0 +1,27 @@
+{
+  "model": "EfficientNet-B0 (frozen) + GRU v2",
+  "best_val_loss": 3.4614735536797103,
+  "test_samples": 1374,
+  "BLEU-1_greedy": 0.38945968167728173,
+  "BLEU-4_greedy": 0.18085891104624605,
+  "BLEU-1_beam": 0.24481153451558288,
+  "BLEU-4_beam": 0.11787035627064144,
+  "METEOR": 0.35483333476451556,
+  "ROUGE-L": 0.3659782324204654,
+  "CIDEr": 1.091286528438093,
+  "Room_Acc_%": 85.58951965065502,
+  "hyperparams": {
+    "EMBED_DIM": 256,
+    "HIDDEN_DIM": 512,
+    "NUM_LAYERS": 2,
+    "BATCH_SIZE": 32,
+    "LR": 0.001,
+    "NUM_EPOCHS": 50,
+    "DROPOUT": 0.4,
+    "GRAD_CLIP": 1.0,
+    "LABEL_SMOOTH": 0.1,
+    "WEIGHT_DECAY": 0.0001,
+    "SS_START": 1.0,
+    "SS_END": 0.7
+  }
+}

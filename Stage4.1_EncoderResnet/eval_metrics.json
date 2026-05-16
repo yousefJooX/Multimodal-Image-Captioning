@@ -1,0 +1,21 @@
+{
+  "model": "Best ResNet50 (layer4 fine-tuned) + GRU",
+  "best_val_loss": 3.3747,
+  "test_samples": 1374,
+  "BLEU-1": 0.35,
+  "BLEU-4": 0.1634,
+  "METEOR": 0.3518,
+  "ROUGE-L": 0.3611,
+  "CIDEr": 0.8742,
+  "Room_Acc_%": 87.85,
+  "hyperparams": {
+    "EMBED_DIM": 256,
+    "HIDDEN_DIM": 512,
+    "BATCH_SIZE": 64,
+    "LR": 5e-05,
+    "DROPOUT": 0.3,
+    "LABEL_SMOOTH": 0.1,
+    "FINE_TUNE": true,
+    "N_GPUS": 2
+  }
+}

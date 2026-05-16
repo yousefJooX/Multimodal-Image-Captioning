@@ -1,0 +1,30 @@
+{
+  "model": "LSTM Decoder v2 (Attention + 2-layer)",
+  "encoder": "ResNet50 (frozen, from teammate)",
+  "best_val_loss": 3.3132812366929163,
+  "test_samples": 1374,
+  "BLEU-1": 0.32006915741416103,
+  "BLEU-4": 0.13373277791643967,
+  "METEOR": 0.41704544011109407,
+  "ROUGE-L": 0.3288104715600943,
+  "CIDEr": 0.9057596007688999,
+  "Room_Acc_%": 63.901018922852984,
+  "room_type_accuracy": {
+    "bathroom": 79.4,
+    "bedroom": 49.1,
+    "home-office": 58.6,
+    "kitchen": 63.1,
+    "living-room": 57.6,
+    "pool": 76.8
+  },
+  "hyperparams": {
+    "embed_dim": 256,
+    "hidden_dim": 512,
+    "num_layers": 2,
+    "dropout": 0.4,
+    "lr": 0.003,
+    "batch_size": 32,
+    "grad_clip": 5.0,
+    "label_smoothing": 0.1
+  }
+}
